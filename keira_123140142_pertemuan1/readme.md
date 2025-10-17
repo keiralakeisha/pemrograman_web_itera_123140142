@@ -14,15 +14,15 @@ TaskMaster merupakan aplikasi web untuk manajemen tugas akademik mahasiswa. Apli
 ## Screenshot Aplikasi
 
 ### 1. Tampilan Utama dengan Dashboard
-![Tampilan Utama](screenshots/satu.png)
+![Tampilan Utama](screenshots/satu.PNG)
 *Halaman utama aplikasi dengan form input dan statistik tugas*
 
 ### 2. Form Input dengan Validasi
-![Form Validasi](screenshots/dua.png)
+![Form Validasi](screenshots/dua.PNG)
 *Form tambah tugas dengan sistem validasi real-time*
 
 ### 3. Daftar Tugas dengan Filter
-![Daftar Tugas](screenshots/tiga.png)
+![Daftar Tugas](screenshots/tiga.PNG)
 *Interface daftar tugas dengan fitur filter dan pencarian*
 
 ## Panduan Menjalankan Aplikasi
@@ -96,5 +96,6 @@ function validateForm(taskName, course, deadline) {
 **Nama**: Keira Lakeisha Fachra Fuady  
 **NIM**: 123140142  
 **Kelas**: RA
+
 
 ```
