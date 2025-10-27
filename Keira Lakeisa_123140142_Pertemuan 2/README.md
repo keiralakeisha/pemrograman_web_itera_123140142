@@ -76,4 +76,4 @@ Semua data (tasks, schedules, notes, mood) tersimpan otomatis di localStorage br
 ---
 **Nama**: Keira Lakeisha Fachra Fuady  
 **NIM**: 123140142 
-**Pertemuan**: 4 - JavaScript Next Gen
+**Pertemuan**: 2 - JavaScript Next Gen
