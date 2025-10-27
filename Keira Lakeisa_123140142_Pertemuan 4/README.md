@@ -74,6 +74,6 @@ Semua data (tasks, schedules, notes, mood) tersimpan otomatis di localStorage br
 - localStorage API
 
 ---
-**Nama**: [Nama Kamu]  
-**NIM**: [NIM Kamu]  
+**Nama**: Keira Lakeisha Fachra Fuady  
+**NIM**: 123140142 
 **Pertemuan**: 4 - JavaScript Next Gen
