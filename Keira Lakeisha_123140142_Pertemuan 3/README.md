@@ -116,17 +116,17 @@ Render daftar buku dengan unique key (id)
 ## Screenshot
 
 ### Halaman Utama
-![Home Page](home.png)
+![Home Page](screenshots/home.png)
 
 Halaman utama dengan form tambah buku dan daftar buku
 
 ### Halaman Statistik
-![Stats Page](stats.png)
+![Stats Page](screenshots/stats.png)
 
 Statistik koleksi buku berdasarkan status
 
 ### Filter & Pencarian
-![Filter](filter.png)
+![Filter](screenshots/filter.png)
 
 Fitur filter dan pencarian buku
 
@@ -148,7 +148,7 @@ Aplikasi ini dilengkapi dengan unit testing untuk:
 Total 11 test cases yang mencakup komponen dan custom hooks.
 
 ### Screenshot Hasil Testing
-![Test Results](test-result.png)
+![Test Results](screenshots/test-result.png)
 
 ## Desain
 
