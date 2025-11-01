@@ -1,0 +1,47 @@
+.stats-container h2 {
+  color: #5C4D3C;
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.stat-card {
+  background-color: #FFEAA7;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  color: #5C4D3C;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #5C4D3C;
+}
+
+.stat-card.total .stat-number {
+  color: #E8C730;
+}
+
+.stat-card.owned .stat-number {
+  color: #52B788;
+}
+
+.stat-card.reading .stat-number {
+  color: #F4A261;
+}
+
+.stat-card.wishlist .stat-number {
+  color: #E76F51;
+}

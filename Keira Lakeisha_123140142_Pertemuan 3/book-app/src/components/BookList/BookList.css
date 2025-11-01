@@ -1,0 +1,84 @@
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.book-card {
+  background-color: #FFEAA7;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.book-info h3 {
+  color: #5C4D3C;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.author {
+  color: #8B7D6B;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-milik {
+  background-color: #A8E6CF;
+  color: #2D5F3F;
+}
+
+.status-baca {
+  background-color: #FFD3B6;
+  color: #8B4513;
+}
+
+.status-beli {
+  background-color: #FFAAA5;
+  color: #8B1A1A;
+}
+
+.book-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit {
+  background-color: #F4D03F;
+  color: #5C4D3C;
+  flex: 1;
+  font-weight: 600;
+}
+
+.btn-edit:hover {
+  background-color: #E8C730;
+}
+
+.btn-delete {
+  background-color: #F4E4B5;
+  color: #5C4D3C;
+  flex: 1;
+}
+
+.btn-delete:hover {
+  background-color: #E8D288;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #8B7D6B;
+  font-size: 16px;
+  background-color: #FFEAA7;
+  border-radius: 10px;
+}

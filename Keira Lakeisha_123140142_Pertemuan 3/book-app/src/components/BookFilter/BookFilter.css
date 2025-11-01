@@ -1,0 +1,38 @@
+.filter-container {
+  background-color: #FFEAA7;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.search-box {
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  background-color: #FFF9E6;
+  color: #5C4D3C;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.filter-buttons button:hover {
+  background-color: #F4E4B5;
+}
+
+.filter-buttons button.active {
+  background-color: #F4D03F;
+  font-weight: 600;
+}

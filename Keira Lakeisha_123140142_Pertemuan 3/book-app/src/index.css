@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFF9E6;
+  color: #5C4D3C;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #F4E4B5;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #FFFDF5;
+  color: #5C4D3C;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #E8D288;
+}

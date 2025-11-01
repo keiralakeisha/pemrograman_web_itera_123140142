@@ -1,0 +1,63 @@
+.book-form-container {
+  background-color: #FFEAA7;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.book-form-container h2 {
+  color: #5C4D3C;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #5C4D3C;
+  font-size: 14px;
+}
+
+.error {
+  color: #C0392B;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #F4D03F;
+  color: #5C4D3C;
+  font-weight: 600;
+  flex: 1;
+}
+
+.btn-primary:hover {
+  background-color: #E8C730;
+}
+
+.btn-secondary {
+  background-color: #F4E4B5;
+  color: #5C4D3C;
+  flex: 1;
+}
+
+.btn-secondary:hover {
+  background-color: #E8D288;
+}
